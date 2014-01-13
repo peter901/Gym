@@ -153,7 +153,6 @@ public class AllClientsActivity extends ListActivity {
 									TAG_INSTRUCTOR }, new int[] { R.id.cid,
 									R.id.name, R.id.date, R.id.amount,
 									R.id.instructor });
-
 					setListAdapter(adapter);
 				}
 			});
