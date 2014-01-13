@@ -110,8 +110,6 @@ public class AllClientsActivity extends ListActivity {
 						String amount = c.getString(TAG_AMOUNT);
 						String instructor = c.getString(TAG_INSTRUCTOR);
 
-						Log.d("clients", name);
-
 						HashMap<String, String> map = new HashMap<String, String>();
 
 						map.put(TAG_CID, id);
@@ -128,6 +126,7 @@ public class AllClientsActivity extends ListActivity {
 					i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 					startActivity(i);
 				}
+				
 
 			} catch (JSONException e) {
 				e.printStackTrace();

@@ -28,6 +28,11 @@
         <activity
             android:name=".AllClientsActivity"
             android:label="All Clients" >
+        </activity>        
+        
+        <activity
+            android:name=".Dates"
+            android:label="Daily Report" >
         </activity>
         
     </application>

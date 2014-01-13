@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
-
- 
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -16,7 +14,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Name"
+            android:text="Date"
             android:textSize="17dip"
             android:textStyle="bold" />
 
@@ -25,16 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Amount"
-            android:textSize="17dip"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="Instructor"
+            android:text="Total"
             android:textSize="17dip"
             android:textStyle="bold" />
     </LinearLayout>
