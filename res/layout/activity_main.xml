@@ -2,15 +2,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical"
-    android:gravity="center_horizontal">
- 
-    <!--  Button to view all products screen -->
-    <Button android:id="@+id/btnViewClientsProducts"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <!-- Button to view all products screen -->
+
+    <Button
+        android:id="@+id/btnViewClientsProducts"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Clients' Records"
-        android:layout_marginTop="25dip"/>
- 
- 
+        android:layout_marginTop="25dip"
+        android:text="Clients&apos; Records" />
+
+    <Button
+        android:id="@+id/btnViewdates"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="Daily Report" />
+
 </LinearLayout>
